@@ -17,7 +17,7 @@ public class TraceId {
         this.level = level;
     }
 
-    private String createId() {
+    private String createId()  {
         return UUID.randomUUID().toString().substring(0, 8);
     }
 
